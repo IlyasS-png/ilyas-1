@@ -9,7 +9,7 @@
                 <form wire:submit.prevent="save" class="space-y-6">
                     <flux:input wire:model="name" label="Product Name" placeholder="Product Name" />
                     <flux:input wire:model="description" label="Description"
-                        placeholder="Da name iz heinz krankenwagen" />
+                        placeholder="Description" />
                     <flux:input wire:model="price" label="Price" placeholder="Berapoo" />
                     <flux:button type="submit" variant="primary">Submit</flux:button>
                 </form>
